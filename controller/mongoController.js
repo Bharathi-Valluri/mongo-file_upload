@@ -14,7 +14,7 @@ const saveData = async (req, res) => {
     res.status(200).json({
       status: 'success',
       response: resp,
-      message: 'files uploaded into mongodb collection successfully'
+      message: 'files uploaded into DB successfully'
     })
   } catch (error) {
     console.log(error)
